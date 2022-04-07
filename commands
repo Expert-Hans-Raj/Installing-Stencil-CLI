@@ -1,0 +1,29 @@
+Install Stencil CLI to Ubuntu
+
+1. Install NPM and NVM both
+2. Install git-scm
+=> sudo apt-get install git
+3. Install Stencil CLI.
+=> npm install -g bigcommerce/stencil-cli
+=> npm install -g bigcommerce/stencil-cli@3.5.1
+move to the theme directory at local and connect stencil to store
+=> stencil init
+
+stencil start
+
+If you get any error that module not install check and try these commands
+npm install webpack
+npm install webpack-merge
+npm install webpack-bundle-analyzer
+npm install lodash-webpack-plugin
+npm install clean-webpack-plugin
+npm install jquery
+
+If the CSS/JS not loaded then run this command in the theme folder.
+npm install
+
+/ Bigcommerce End /
+
+
+
+https://developer.bigcommerce.com/stencil-docs/ZG9jOjIyMDcwMA-installing-stencil-cli
